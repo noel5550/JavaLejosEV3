@@ -1,9 +1,9 @@
 package Portes;
 
-public class PortesMouvementsFermeture implements EtatPortes {
-	private Portail portail;
+public class PortesMouvementOuverture implements EtatPortes {
+	Portail portail;
 	
-	public PortesMouvementsFermeture(Portail portail) {
+	public PortesMouvementOuverture(Portail portail) {
 		this.portail = portail;
 	}
 
